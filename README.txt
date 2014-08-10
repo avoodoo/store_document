@@ -7,7 +7,7 @@ Tomcat 7.0.54 + REST + CDI + JSON + (MySql/POI? - not yet)
 3.)	mvn clean install -DskipTests
 
 4.) Start Tomcat 7.0.54
-d
+
 5.) (Re)deploy or copy .war to $CATALINA_HOME/webapps
 	mvn clean install tomcat7:undeploy tomcat7:deploy
 	
