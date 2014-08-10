@@ -25,6 +25,7 @@ tbd. Connection to MySql DB
 
 	<Resource name="jdbc/LocalDS" auth="Container" type="javax.sql.DataSource" 
 	maxActive="100" maxIdle="30" maxWait="-1" username="root" password="admin"
-	driverClassName="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost:3306/document"/>    
+	driverClassName="com.mysql.jdbc.Driver" 
+	url="jdbc:mysql://localhost:3306/document"/>    
     	
     	
