@@ -3,6 +3,7 @@
 	
 	<modelVersion>4.0.0</modelVersion>
 	
+	
 	<name>a|voodoo :: [store_document]</name>
 	<groupId>com.avoodoo</groupId>
 	<artifactId>store_document_war</artifactId>
