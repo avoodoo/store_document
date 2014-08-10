@@ -3,7 +3,7 @@ Tomcat 7.0.54 + REST + CDI + JSON + (MySql/POI? - not yet)
 1.)	Open cmd
 
 2.)	cd <yourPath>/store_document_war
-
+d
 3.)	mvn clean install -DskipTests
 
 4.) Start Tomcat 7.0.54
