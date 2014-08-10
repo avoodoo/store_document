@@ -1,0 +1,11 @@
+
+Single Document Produce/Consume
+===============================
+1.) cd to to Project Root (e.g. C:\develop\platform\prod\project\store_document)
+
+2.) Create Document (not necessary because json_document.json is already filled)
+	curl -k -v -i -b cookie.txt -H "Content-Type: application/json" -X GET http://localhost:8080/store_document_war/store/produce
+	Browser: http://localhost:8080/store_document_war/store/produce
+	
+3.) Consume Document
+	curl -k -v -i -b cookie.txt -H "Accept:application/json" -H "Content-Type: application/json" --data @document.json -X POST http://localhost:8080/store_document_war/store/document
